@@ -1,0 +1,19 @@
+:root {
+  --primary-color: #c41d1d;
+  --text-color: #333;
+  --border-color: #eee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  color: var(--text-color);
+}
+
+.el-menu {
+  border-right: none !important;
+}

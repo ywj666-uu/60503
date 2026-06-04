@@ -1,69 +1,37 @@
-# Prerequisites
-*.d
+# Java
+backend/target/
+*.class
+*.jar
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Node
+frontend/node_modules/
+frontend/dist/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Python
+pitch-service/__pycache__/
+pitch-service/*.pyc
+pitch-service/.venv/
 
-# Linker files
-*.ilk
+# IDE
+.idea/
+.vscode/
+*.iml
 
-# Debugger Files
-*.pdb
+# OS
+.DS_Store
+Thumbs.db
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
+# Env
+.env
+.env.local
+*.env.local
 
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
+# Build
 build/
 Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
+*.exe
+*.out
 *.log
+*.tmp
 *.bak
 *.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
